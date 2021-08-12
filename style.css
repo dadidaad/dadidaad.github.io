@@ -1,0 +1,108 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-image: url(https://res.cloudinary.com/practicaldev/image/fetch/s--BuPz-p40--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/nphrgz8yfnjylrwfr0yl.png);
+}
+.navbar-header {
+  overflow: hidden !important;
+  width: 100%;
+  padding: 0.2em;
+  background-image: linear-gradient(
+    180deg,
+    rgba(56, 49, 49, 0.815),
+    rgba(12, 1, 1, 0.856)
+  );
+  position: fixed;
+  top: 0;
+  display: inline-block;
+  letter-spacing: 0.15em;
+  z-index: 10;
+}
+.navbar{
+    float: left;
+    justify-content: left;
+}
+li {
+  list-style: none;
+  margin-right: 1.5em;
+}
+li:first-child {
+  margin-left: 1em;
+}
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+  font-family: "Source Sans Pro", "Helvetica Neue";
+}
+
+#search-bar {
+  margin-bottom: auto;
+  margin-top: auto;
+  height: 2.5em;
+  background-color: #353b48;
+  border-radius: 2em;
+  padding: 0.3em;
+  float: right;
+}
+
+.search-input {
+  color: white;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  background: none;
+  width: 0;
+  caret-color: transparent;
+  line-height: 1em;
+  transition: width 0.2s linear;
+}
+
+#search-bar:hover > .search-input {
+  padding: 0;
+  width: 20em;
+  caret-color: red;
+  transition: width 0.2s linear;
+  text-align: center;
+}
+
+#search-bar:hover > .search-icon {
+  background: white;
+  color: #e74c3c;
+}
+
+.search-icon {
+  height: 1.5em;
+  width: 1.5em;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3em;
+  color: white;
+  text-decoration: none;
+}
+.container {
+  height:2000px;
+  margin-top: 10em;
+}
+.Title{
+  font-family: "Sofia", sans-serif;
+  font-size: 4em;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+}
+.img-show{
+  width: 50em;
+  height: 30em;
+  margin: 0 auto;
+  margin-top: 3em;
+}
+img{
+  max-width: 100%;
+  height: auto;
+}
