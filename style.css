@@ -4,6 +4,7 @@
 }
 body {
   background-image: url(https://res.cloudinary.com/practicaldev/image/fetch/s--BuPz-p40--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/nphrgz8yfnjylrwfr0yl.png);
+  height: auto;
 }
 .navbar-header {
   overflow: hidden !important;
@@ -28,7 +29,7 @@ li {
   list-style: none;
   margin-right: 1.5em;
 }
-li:first-child {
+#Navbar1 {
   margin-left: 1em;
 }
 a {
@@ -84,12 +85,10 @@ a {
   color: white;
   text-decoration: none;
 }
-.container {
-  height: 2000px;
-  margin-top: 10em;
-}
+
 .Home {
   width: 100%;
+  max-height: 800px;
   display: flex;
   margin-top: 5em;
 }
@@ -102,7 +101,7 @@ a {
 }
 .img-show {
   width: 40%;
-  height: 100%;
+  max-height: 100%;
   margin: 0 auto;
 }
 .caption-title {
@@ -210,4 +209,42 @@ a {
     font-size: 4em;
     text-align: center;
   }
+}
+.about-me{
+  margin: 0 auto;
+  margin-top: 10em;
+  max-height: 1200px;
+  width: 40%;
+}
+h1{
+  text-align: center;
+  font-size: 3em;
+  font-family: "Helvetica Neue";
+  font-weight: bold;
+  color: rgb(255, 0, 0);
+}
+.mySkill{
+  width : 100%;
+  background-color: rgb(12, 106, 134);
+}
+.list-skill{
+  font-size: 3em;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  color:rgb(212, 212, 212)
+}
+.img-thumbnail{
+  weight: 1em;
+  height: 1em;
+  margin: 0 auto;
+  margin-left: 1em;
+}
+.table{
+  width: 100%;
+  margin-top: 5em !important;
+  margin: 0 auto;
+  text-align: center;
+}
+.Achievement{
+ margin-top: 5em;
 }
